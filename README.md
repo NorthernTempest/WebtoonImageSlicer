@@ -4,7 +4,7 @@ This is a tool designed for the use of [Webtoons](https://www.webtoons.com/en/) 
 
 ## How to Run (Windows)
 1. Install [java](https://java.com/en/download/)
-2. Download [WebtoonImageSlicer.zip](https://github.com/NorthernTempest/WebtoonImageSlicer/blob/master/WebtoonImageSlicer.zip)
+2. Download [WebtoonImageSlicer.zip](https://github.com/NorthernTempest/WebtoonImageSlicer/blob/alternate-one-folder/WebtoonImageSlicer.zip)
 3. Unzip the directory
 4. Inside the directory, double click Run.bat
 5. Drag the image you want to slice into the command prompt window that pops up
