@@ -2,6 +2,9 @@
 A simple tool that takes in an image from command line, scales it to 800 px wide while maintaining aspect ratio, and exports it to a folder of jpgs, each of which is, at most, 1280 px tall.
 This is a tool designed for the use of [Webtoons](https://www.webtoons.com/en/) artists to create uploadable web comics for that site.
 
+## Variant Version
+There is a variant version of this tool that deposits output images from images in the same folder into a new folder called "Sliced", instead of a folder named after the input image. It is available [here](https://github.com/NorthernTempest/WebtoonImageSlicer/tree/alternate-one-folder).
+
 ## How to Run (Windows)
 1. Install [java](https://java.com/en/download/)
 2. Download [WebtoonImageSlicer.zip](https://github.com/NorthernTempest/WebtoonImageSlicer/blob/master/WebtoonImageSlicer.zip)
