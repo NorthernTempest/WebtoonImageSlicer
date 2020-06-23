@@ -15,6 +15,7 @@ public class App
 {
 	public static final int WIDTH = 800;
 	public static final int HEIGHT = 1280;
+	public static final String FOLDER_NAME = "Sliced";
 	
     public static void main( String[] args )
     {
@@ -41,7 +42,7 @@ public class App
 	    				int scaledHeight = WIDTH * importedHeight / importedWidth;
 	    				ImagePlus scaledImage = importedImage.resize(WIDTH, scaledHeight, "none");
 	    				
-	    				File folder = new File( file.getParentFile().getAbsolutePath() + "/" + name + "/" );
+	    				File folder = new File( file.getParentFile().getAbsolutePath() + "/" + FOLDER_NAME + "/" );
 	    				folder.mkdirs();
 	    				
 	    				for(int i = 0; i * HEIGHT < scaledHeight; i++) {
